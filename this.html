@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+</head>
+<body>
+  <script>
+    var car = {
+      color : 'red',
+      drive:function (){
+        if (this.started){
+          alert("Zoom Zoom!!");
+        }else{
+          alert("你需要启动");
+        }
+      },
+      start: function(){
+        this.started=true;
+      },
+     
+    }
+  </script>
+  
+</body>
+</html>
