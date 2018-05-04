@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <script>
+    function init(){
+      var obj=document.getElementById('lyw');
+      alert(obj.innerHTML + ",123")
+      obj.innerHTML='这不是一个标题';
+    }
+    window.onload = init;
+  </script>
+</head>
+<body>
+  <h1 id="lyw">这是一个标题</h1>
+</body>
+</html>
